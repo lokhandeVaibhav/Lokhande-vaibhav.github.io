@@ -21,7 +21,7 @@
                             width="100%"
                             horizontal="true"
                             vertical="true">
-                            <PDFViewer id="pdf" source="{/Source}" title="{/Title}" height="600px" loaded="onloaded" error="onerror" sourceValidationFailed="onsourceValidationFailed">
+                            <PDFViewer id="pdf" source="{/Source}" title="{/Title}" height="{/Height}" loaded="onloaded" error="onerror" sourceValidationFailed="onsourceValidationFailed">
                                 <layoutData>
                                     <FlexItemData growFactor="1" />
                                 </layoutData>
